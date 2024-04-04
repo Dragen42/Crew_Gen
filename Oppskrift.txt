@@ -1,0 +1,20 @@
+# **For å kjøre survilence feed demoen må du ha KoboldCPP oppe og gå.**
+
+
+1.   Først last ned KoboldCPP
+2.   Så last ned LLM modelen (kan fungere med andre modeler)
+3.   Så start KoboldCPP (dobbelklikk exe)
+4.   Under quicklaunch velg browse og finn LLM modelen
+5.   Nvidia: Bruk CuBlas i presets og sett GPU til ca 8-28 (eldre kort-brand new silica)
+6.   Amd/Intel/RussiskPotet: Se link og måtte all hel bifalle deg
+7.   Neste steget er å huke av for remote tunnel under Network
+8.   Kopier cloudfare addresen i det skummle terminal vinduet
+9.   Finn linje 373 og 374 i Crew_gen.py og lim inn cloudfare addresen
+10.  Kjør koden ved å trykke på play pilen
+
+NB!!! Jeg går ut ifra windows men er støtte for linux
+
+*   [Kobold Github](https://github.com/LostRuins/koboldcpp/wiki)
+*   [Link for å laste ned Kobold](https://github.com/LostRuins/koboldcpp/releases/download/v1.61.2/koboldcpp.exe)
+*   [link til LLM modelen](https://huggingface.co/Lewdiculous/Eris_PrimeV4-Vision-32k-7B-GGUF-IQ-Imatrix/blob/main/Eris_PrimeV4-Vision-32k-7B-Q4_K_S-imat.gguf)
+*   [Kan se ut som ting blir bedre uten Nvidia (her er vertfall mulighet til å finne ut ting.)](https://github.com/LostRuins/koboldcpp/wiki#what-are-my-options-to-make-it-go-faster-cublasclblastopenblasmetalacceleraterocmvulkan)
